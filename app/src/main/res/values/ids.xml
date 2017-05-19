@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="user_name" type="id"/>
+    <item name="password" type="id"/>
+    <item name="login" type="id"/>
+    <item name="new_user" type="id"/>
+    <item name="register" type="id"/>
+    <item name="cancel" type="id"/>
+    <item name="confirm_password" type="id"/>
+    <item name="conversations" type="id"/>
+    <item name="contacts" type="id"/>
+    <item name="dynamic" type="id"/>
+    <item name="fragment_container" type="id"/>
+    <item name="back" type="id"/>
+    <item name="add" type="id"/>
+    <item name="title" type="id"/>
+    <item name="logout" type="id"/>
+    <item name="recycler_view" type="id"/>
+    <item name="section" type="id"/>
+    <item name="swipe_refresh_layout" type="id"/>
+    <item name="slide_bar" type="id"/>
+    <item name="search" type="id"/>
+    <item name="friend_not_found" type="id"/>
+    <item name="avatar" type="id"/>
+    <item name="timestamp" type="id"/>
+    <item name="send" type="id"/>
+    <item name="edit" type="id"/>
+    <item name="send_message" type="id"/>
+    <item name="send_message_progress" type="id"/>
+    <item name="receive_message" type="id"/>
+    <item name="last_message" type="id"/>
+    <item name="unread_count" type="id"/>
+    <item name="conversation_item_container" type="id"/>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <com.zmm.fanchatim.widget.SlideBar
+            android:id="@id/slide_bar"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"/>
+
+        <TextView
+            android:id="@id/section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ease_show_head_toast_bg"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            android:padding="20dp"
+            android:visibility="gone"
+            android:text="A"/>
+
+    </FrameLayout>
+</LinearLayout>
+
+
+
+
